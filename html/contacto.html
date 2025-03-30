@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Dulce Pan</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" href="../img/imgico.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+            <a href ="../index.html" class="menu">Inicio</a>
+            <a href="../html/nosotros.html" class="menu">Nosotros</a>
+            <li class="dropdown">
+                <a href="../html/servicios.html" class="menu">Servicios</a>
+                <div class="dropdown-content">
+                    <a href="../html/panes.html">Panes artesanales</a>
+                    <a href="../html/pasteles.html">Pateleria y Reposteria</a>
+                  </div>
+                </li>
+            <a href="../html/contacto.html" class="menu act">Contacto</a>
+        </nav>
+    <section class="contact">
+        <h2 class="contacto__titulo">Registrate</h2>
+        <form class="contacto__formulario" disabled>
+            <div class="contacto__campo">
+                <label class="contacto__label" for="nombre">Nombre:</label>
+                <input class="contacto__input" type="text" id="nombre" name="nombre">
+            </div>
+
+            <div class="contacto__campo">
+                <label class="contacto__label" for="apellido">Apellido:</label>
+                <input class="contacto__input" type="text" id="apellido" name="apellido">
+            </div>
+
+            <div class="contacto__campo">
+                <label class="contacto__label" for="correo">Correo:</label>
+                <input class="contacto__input" type="email" id="correo" name="correo">
+            </div>
+
+            <div class="contacto__campo">
+                <label class="contacto__label" for="contrasena">Contraseña:</label>
+                <input class="contacto__input" type="password" id="contrasena" name="contrasena">
+            </div>
+
+            <div class="contacto__campo">
+                <label class="contacto__label" for="fecha">Fecha de Nacimiento:</label>
+                <input class="contacto__input" type="date" id="fecha" name="fecha">
+            </div>
+
+            <div class="contacto__campo">
+                <label class="contacto__label" for="mensaje">Mensaje:</label>
+                <textarea class="contacto__mensaje" id="mensaje" name="mensaje"></textarea>
+            </div>
+
+            <button class="contacto__boton" type="submit" disabled>Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <p>&copy; 2025 - Todos los derechos reservados</p>
+            <div class="redes-sociales">
+                <a href="https://facebook.com" target="_blank" class="icono facebook">Facebook</a>
+                <a href="https://tiktok.com" target="_blank" class="icono tiktok">TikTok</a>
+                <a href="https://instagram.com" target="_blank" class="icono instagram">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
